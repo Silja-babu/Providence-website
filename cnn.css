@@ -1,0 +1,55 @@
+.Breast{
+    font-style: italic;
+    color: red;
+    font-size: 36px;
+
+}
+.Current{
+    font-size: xx-large;
+    text-decoration: underline;
+    
+}
+.breast{
+    background-image: url(cell.jpeg);
+    padding: 250px;
+    font-size: 50px;
+    
+}
+li.c{
+    border: 1px;
+    width: 20px;
+    font-size: 30px;
+}
+strong{
+    color: springgreen;
+    font-size: 25px;
+}
+ul li{
+    color: purple;
+    font-size: 20px;
+    list-style-type: decimal;
+    
+}
+div img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+a[href]{
+    background-color: pink;
+    text-decoration: wavy;
+    font-size: 25px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(221, 97, 14);
+}
+div p.cnn{
+    color: rgb(78, 6, 247);
+    border: 4px dotted red;
+    margin: 60px;
+    font-size: 25px;
+
+}
