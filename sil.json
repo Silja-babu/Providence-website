@@ -1,0 +1,16 @@
+{
+    "name":"breast",
+    "version": "1.0.0",
+    "description": "",
+    "master": "commit",
+    "dependencies": {
+        "http-server": "14.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "http-server -c-1-p 8081"
+    },
+    "author": "",
+    "license":"ISC"
+    
+}
