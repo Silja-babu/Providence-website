@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+.ban{
+    width: 1200px;
+    background-color: white;
+    padding: 30px;
+    margin: 10px auto;
+}
+.ban p{
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    text-align: justify;
+    
+}
+header{
+    text-align: center;
+    text-shadow: 2px 2px rgb(86, 197, 86);
+    color: rgb(32, 28, 28);
+}

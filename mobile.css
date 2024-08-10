@@ -1,0 +1,161 @@
+header{
+    position: fixed;
+    background-color: rgb(67, 214, 9);
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    top: 0;
+    left: 0;
+    
+
+}
+header h1{
+    border: 8px solid white;
+    padding:6px;
+    display: inline-block;
+    border-radius: 105px;
+    background-color: rgb(41, 177, 131);
+    
+    
+}
+
+.head{
+    position: relative;
+}
+.head img{
+    max-width: 100%;
+}
+.dora{
+    position: absolute;
+    top: 12%;
+    right: 0;
+    padding:40px;
+    
+    
+}
+.dora h2 {
+    color: rgb(241, 5, 84);
+    font-weight: bolder;
+    font-size: 50px;
+}
+.dora h2 span{
+    font-size: 1.5em;
+    font-style: oblique;
+    color: blueviolet;
+}
+.base{
+    background-color: rgb(212, 207, 207);
+    padding: 30px;
+}
+.base li a{
+    text-decoration: none;
+    color: brown;
+    
+    
+}
+.base li{
+    list-style-type: none;
+    width: 20%;
+    display: inline-block;
+    font-size: 16px;
+}
+.base ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.block{
+    background-color:white;
+    border: 2px solid rgb(240, 35, 35);
+    width: 30%;
+    padding: 15px;
+    
+    
+}
+.block a{
+    color: white;
+    font-size:20px;
+}
+.block:hover{
+    border: 9px solid greenyellow;
+    top: -6px;
+}
+.base:hover{
+    
+    position: relative;
+}
+@media screen and (max-width:1212px){
+    .dora h2{
+        font-size: 40px;
+            }
+    header h1{
+        font-size: 30px;
+        padding:2px;
+    }
+    .base li{
+        font-size: 15px;
+    }
+    .block a{
+        font-size: 16px;
+    }
+    .block:hover{
+        border: 8px solid greenyellow;
+        top: -6px;
+    }
+    .block{
+         
+        width: 40%;
+        padding: 15px;
+        
+        
+    }
+
+    
+}
+@media screen and (max-width:720px) {
+    .dora h2{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 13px;
+        padding:10px;
+    }
+    .base li{
+        font-size: 13px;
+    }
+    .block a{
+        font-size: 15px;
+    }
+    .block:hover{
+        border: 5px solid greenyellow;
+        top: -6px;
+    }
+
+    
+}
+@media screen and(max-width:500px) {
+    .dora h2{
+        font-size: 19px;
+    }
+    header h1{
+        font-size: 13px;
+        padding:10px;
+    }
+    .base li{
+        font-size: 10px;
+    }
+    .block a{
+        font-size: 12px;
+    }
+    .block:hover{
+        border: 3px solid greenyellow;
+        top: -6px;
+    }
+    .block{
+        width: 20%;
+        padding: 30px;
+    }
+
+}

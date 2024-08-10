@@ -1,14 +1,14 @@
 {
-    "name": "Breast Cancer",
+    "name":"breast",
     "version": "1.0.0",
     "description": "",
-    "main": "cnn.html",
+    "master": "commit",
     "dependencies": {
-        "http-server": "^0.12.3"
+        "http-server": "14.1.1"
     },
     "devDependencies": {},
     "scripts": {
-        "start": "http-server -c-1-p 8081"
+        "start": "http-server -c-1 -p 8081"
     },
     "author": "",
     "license":"ISC"
