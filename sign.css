@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(7, 1, 1);
+    color: white;
+    padding-top: 20px;
+    width: max-content;
+    text-align: center;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    text-align: center;
+
+}
+header{
+    text-align: center;
+    
+}
+header img{
+    width: 60px;
+    height: 60px;
+}
+header h1{
+    padding: 20px;
+    font-size:50px;
+    font-weight: bolder;
+}
+form{
+    text-align: left;
+}
+form input{
+    background-color: black;
+    border-bottom: black;
+    border-right: black;
+    border: 2px solid white;
+    padding: 8px;
+    width: 100%;
+    
+}
+.bottom a{
+    color: rgb(19, 161, 19);
+    padding: 20px;
+    
+    
+}
+.next {
+    background-color: green;
+    padding: 13px;
+    border-radius: 60px;
+}
+.next a{ color: white;
+text-decoration: none;}
+.google img, .google p{
+    display:inline-block;
+   
+}
+.google{
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 60px;
+    
+}
+.facebook img, .facebook p{
+    display:inline-block;
+    
+}
+.facebook{padding: 3px;
+    border: 2px solid white;
+    border-radius: 60px;
+}
+.apple img, .apple p{
+    display:inline-block;
+   
+}
+.apple{
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 60px;
+    
+}
+.below a{
+    color: white;
+}

@@ -2,7 +2,7 @@
     "name":"breast",
     "version": "1.0.0",
     "description": "",
-    "master": "commit",
+    "master": "cnn.html",
     "dependencies": {
         "http-server": "14.1.1"
     },
